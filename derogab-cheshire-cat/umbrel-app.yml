@@ -75,6 +75,6 @@ releaseNotes: >-
   More info: https://github.com/cheshire-cat-ai/core/pull/845
 
 dependencies: []
-path: ""
+path: "/admin/"
 defaultUsername: ""
 defaultPassword: ""
