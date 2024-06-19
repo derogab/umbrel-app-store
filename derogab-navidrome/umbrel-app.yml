@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: derogab-navidrome
+name: Navidrome
+tagline: Your Personal Streaming Service
+icon: https://avatars.githubusercontent.com/u/26692192
+category: media
+version: "0.52.5"
+port: 4533
+description: >-
+  Navidrome allows you to enjoy your music collection from anywhere, by making it available through a modern Web UI and through a wide range of third-party compatible mobile apps, for both iOS and Android devices.
+
+  
+  Navidrome is open source software distributed free of charge under the terms of the GNU GPL v3 license.
+
+developer: deluan
+website: https://navidrome.org
+submitter: derogab
+submission: https://github.com/derogab/umbrel-app-store
+repo: https://github.com/navidrome/navidrome
+support: https://github.com/navidrome/navidrome/issues
+gallery:
+  - https://www.navidrome.org/screenshots/light-albums-view.png
+  - https://www.navidrome.org/screenshots/dark-album-view.png
+  - https://raw.githubusercontent.com/navidrome/navidrome/master/.github/screenshots/ss-desktop-player.png
+releaseNotes: >-
+  This is mostly a bug-fix version, with focus on some Jukebox issues, but also other general improvements and fixes.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

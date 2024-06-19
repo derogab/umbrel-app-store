@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: derogab-navidrome_server_1
+      APP_PORT: 4533
+    
+  server:
+    image: deluan/navidrome:0.52.5
+    restart: on-failure
+    hostname: ${DEVICE_HOSTNAME}
+    user: 1000:1000
+    init: true
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+      - ${UMBREL_ROOT}/data/storage/downloads/music:/music
+    environment:
+      # Optional: put your config options customization here. Examples:
+      - ND_SCANSCHEDULE=1h
+      - ND_LOGLEVEL=info
+      - ND_SESSIONTIMEOUT=24h
+      - ND_DEFAULTLANGUAGE=en
