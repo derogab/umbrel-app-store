@@ -1,0 +1,80 @@
+manifestVersion: 1
+id: derogab-cheshire-cat
+name: Cheshire Cat
+tagline: Production ready AI agent framework
+icon: https://avatars.githubusercontent.com/u/135242343
+category: AI
+version: "1.6.2"
+port: 1865
+description: >-
+  The Cheshire Cat is a framework to build custom AIs on top of any language model. If you have ever used systems like WordPress or Django to build web apps, imagine the Cat as a similar tool, but specific for AI.
+
+  
+  Why use the Cat  
+
+  ⚡️ API first, so you get a microservice to easily add a conversational layer to your app  
+
+  🐘 Remembers conversations and documents and uses them in conversation  
+
+  🚀 Extensible via plugins (public plugin registry + private plugins allowed)  
+
+  🎚 Event callbacks, function calling (tools), conversational forms  
+
+  🏛 Easy to use admin panel (chat, visualize memory and plugins, adjust settings)  
+
+  🌍 Supports any language model (works with OpenAI, Google, Ollama, HuggingFace, custom services)  
+
+  🐋 Production ready - 100% dockerized  
+
+  👩‍👧‍👦 Active Discord community and easy to understand docs  
+  
+developer: pieroit
+website: https://cheshirecat.ai
+submitter: derogab
+submission: https://github.com/derogab/umbrel-app-store
+repo: https://github.com/cheshire-cat-ai/core
+support: https://github.com/cheshire-cat-ai/core/issues
+gallery:
+  - https://i.imgur.com/2gUZVL9.jpeg
+  - https://i.imgur.com/XXqkYTl.jpeg
+  - https://i.imgur.com/XQWAAcL.jpeg
+  - https://i.imgur.com/1Is124P.jpeg
+  - https://i.imgur.com/WT2wiWA.jpeg
+releaseNotes: >-
+  New in version 1.6.2:
+
+  - Full support for chat models  
+
+  - Update Ollama adapter  
+
+  - Move some env inside container  
+
+  - AgentManager refactoring  
+
+  - Handle pip errors during plugin installation  
+
+  - Form messages customization  
+
+  - Fix rabbithole bug for big documents  
+
+  - cat.white_rabbit scheduler  
+
+  - bump dependencies  
+
+  - refactor env variables  
+
+  - tests for AgentManager, env variables and CCAT_API_KEY  
+
+  - update Cohere adapter  
+
+  - admin updates  
+
+  - docs updates  
+  
+
+  More info: https://github.com/cheshire-cat-ai/core/pull/845
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
