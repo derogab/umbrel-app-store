@@ -4,7 +4,7 @@ name: Cheshire Cat
 tagline: Production ready AI agent framework
 icon: https://avatars.githubusercontent.com/u/135242343
 category: AI
-version: "1.6.2"
+version: "1.7.0"
 port: 1865
 description: >-
   The Cheshire Cat is a framework to build custom AIs on top of any language model. If you have ever used systems like WordPress or Django to build web apps, imagine the Cat as a similar tool, but specific for AI.
@@ -41,38 +41,54 @@ gallery:
   - https://i.imgur.com/1Is124P.jpeg
   - https://i.imgur.com/WT2wiWA.jpeg
 releaseNotes: >-
-  New in version 1.6.2:
+  New in version 1.7.0:
 
-  - Full support for chat models  
+  - authHandler factory
 
-  - Update Ollama adapter  
+  - predisposition for VScode editor and debug plugin
+  
+  - minimal user system, login page and JWT auth
+  
+  - permission system, simplify internal and external identity provider api
+  
+  - refactor fastAPI headers dependencies
+  
+  - linter integration
+  
+  - timezone env variable
+  
+  - docker host support
+  
+  - improve cat.classify
+  
+  - CCAT_API_KEY_WS env variable
+  
+  - more endpoint and unit tests
+  
+  - support for chat models
+  
+  - refactor agent
+  
+  - switch from swagger to scalar ui
+  
+  - JWT and user support for the admin
+  
+  - admin permissions
+  
+  - why.model_interactions report
+  
+  - add endpoint to post single point in memory
+  
+  - send metadata along rabbithole endpoints
 
-  - Move some env inside container  
+  - improve temrinal prompt logs
 
-  - AgentManager refactoring  
+  - default OpenAI model is gpt-4o-mini
 
-  - Handle pip errors during plugin installation  
-
-  - Form messages customization  
-
-  - Fix rabbithole bug for big documents  
-
-  - cat.white_rabbit scheduler  
-
-  - bump dependencies  
-
-  - refactor env variables  
-
-  - tests for AgentManager, env variables and CCAT_API_KEY  
-
-  - update Cohere adapter  
-
-  - admin updates  
-
-  - docs updates  
+  - documentation updates
   
 
-  More info: https://github.com/cheshire-cat-ai/core/pull/845
+  More info: https://github.com/cheshire-cat-ai/core/pull/873
 
 dependencies: []
 path: "/admin/"

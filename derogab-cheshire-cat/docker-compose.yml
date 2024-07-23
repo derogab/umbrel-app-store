@@ -9,7 +9,7 @@ services:
       APP_PORT: 80
     
   core:
-    image: ghcr.io/cheshire-cat-ai/core:1.6.2
+    image: ghcr.io/cheshire-cat-ai/core:1.7.0
     restart: on-failure
     hostname: ${DEVICE_HOSTNAME}
     user: 1000:1000
