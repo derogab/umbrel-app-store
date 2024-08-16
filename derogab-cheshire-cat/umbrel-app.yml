@@ -4,7 +4,7 @@ name: Cheshire Cat
 tagline: Production ready AI agent framework
 icon: https://avatars.githubusercontent.com/u/135242343
 category: AI
-version: "1.7.0"
+version: "1.7.1"
 port: 1865
 description: >-
   The Cheshire Cat is a framework to build custom AIs on top of any language model. If you have ever used systems like WordPress or Django to build web apps, imagine the Cat as a similar tool, but specific for AI.
@@ -41,54 +41,24 @@ gallery:
   - https://i.imgur.com/1Is124P.jpeg
   - https://i.imgur.com/WT2wiWA.jpeg
 releaseNotes: >-
-  New in version 1.7.0:
+  New in version 1.7.1:
 
-  - authHandler factory
-
-  - predisposition for VScode editor and debug plugin
+  - fix redirect bug on http
   
-  - minimal user system, login page and JWT auth
+  - refactor Agent
   
-  - permission system, simplify internal and external identity provider api
+  - prompt_prefix placeholders resilience
   
-  - refactor fastAPI headers dependencies
+  - CCAT_HTTPS_PROXY_MODE env variable
   
-  - linter integration
+  - user passwords can be edited
   
-  - timezone env variable
+  - no /public endpoint
   
-  - docker host support
-  
-  - improve cat.classify
-  
-  - CCAT_API_KEY_WS env variable
-  
-  - more endpoint and unit tests
-  
-  - support for chat models
-  
-  - refactor agent
-  
-  - switch from swagger to scalar ui
-  
-  - JWT and user support for the admin
-  
-  - admin permissions
-  
-  - why.model_interactions report
-  
-  - add endpoint to post single point in memory
-  
-  - send metadata along rabbithole endpoints
-
-  - improve temrinal prompt logs
-
-  - default OpenAI model is gpt-4o-mini
-
-  - documentation updates
+  - show default users and passwords during first logins
   
 
-  More info: https://github.com/cheshire-cat-ai/core/pull/873
+  More info: https://github.com/cheshire-cat-ai/core/pull/880
 
 dependencies: []
 path: "/admin/"
